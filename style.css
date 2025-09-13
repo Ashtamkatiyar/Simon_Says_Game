@@ -1,0 +1,48 @@
+h1,h3{
+    text-align: center;
+    
+}
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    background-color: blanchedalmond;
+
+}
+.red{
+    border: 4px solid black;
+    border-radius: 13%;
+    background-color: red;
+}
+
+.blue{
+    border: 4px solid black;
+    border-radius: 13%;
+    background-color: blue;
+}
+
+.green{
+    border: 4px solid black;
+    border-radius: 13%;
+    background-color: green;
+}
+
+.yellow{
+    border: 4px solid black;
+    border-radius: 13%;
+    background-color: yellow;
+}
+
+.flesh{
+    background-color: white;
+    
+}
